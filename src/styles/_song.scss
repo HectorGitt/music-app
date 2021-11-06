@@ -1,0 +1,32 @@
+.song-cont {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 20%;
+    border-radius: 50%;
+  }
+  h2 {
+    padding: 2rem 0rem;
+  }
+}
+.cover-animate {
+  animation: cover 30s linear infinite forwards;
+}
+@keyframes cover {
+  0% {
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .song-cont {
+    img {
+      width: 60%;
+    }
+  }
+}
