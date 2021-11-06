@@ -4,14 +4,15 @@ nav {
   justify-content: space-around;
   align-items: center;
   button {
+    color: bisque;
     background: transparent;
     border: none;
     cursor: pointer;
-    border: 1px solid rgb(49, 13, 13);
+    border: 1px solid rgb(238, 231, 231);
     padding: 8px 4px;
     transition: all 0.5s ease;
     &:hover {
-      background-color: rgb(14, 14, 14);
+      background-color: rgb(126, 41, 41);
       color: wheat;
     }
   }

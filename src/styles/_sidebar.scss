@@ -7,7 +7,7 @@
   box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.281);
   overflow: scroll;
   transform: translateX(-100%);
-  background-color: rgb(236, 245, 196);
+  background-color: rgb(126, 41, 41);
   transition: all 0.4s ease-in;
   opacity: 0;
   h2 {
@@ -24,7 +24,7 @@
     width: 30%;
   }
   &:hover {
-    background: rgb(199, 199, 199);
+    background: rgb(68, 40, 40);
   }
 }
 .song-description {
@@ -53,7 +53,7 @@
   border: transparent;
 }
 .lib-song.selected {
-  background-color: rgb(149, 212, 214);
+  background-color: rgb(0, 0, 0);
 }
 .active-lib {
   transform: translateX(0);
