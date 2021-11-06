@@ -2,16 +2,6 @@ import { v4 as uuidv4 } from "uuid";
 function chillHop() {
   return [
     {
-      name: "Reflection",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
-      artist: "Swørn",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
-      color: ["#CD607D", "#c94043"],
-      id: uuidv4(),
-      active: true,
-    },
-    {
       name: "Beaver Creek",
       cover:
         "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
@@ -19,7 +9,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
-      active: false,
+      active: true,
     },
     {
       name: "Daylight",
@@ -52,6 +42,16 @@ function chillHop() {
       active: false,
     },
     {
+      name: "Reflection",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+      artist: "Swørn",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
       name: "Under the City Stars",
       cover:
         "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
@@ -61,7 +61,16 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-    //ADD MORE HERE
+    {
+      name: "Nimbus",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/5c3cb92a68f953925c92d259d8d7b52d3bd9aa06-1024x1024.jpg",
+      artist: "Toonorth",
+      id: uuidv4(),
+      active: false,
+      color: ["#F05B45", "#7D6F49"],
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=7842",
+    },
   ];
 }
 
